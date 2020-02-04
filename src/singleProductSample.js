@@ -1,4 +1,4 @@
-const product = {
+export const product = {
   id: 102,
   title: 'Snowboard Boots X-L',
   description: 'Crazy extreme boots of snow & board.',
@@ -40,3 +40,4 @@ const product = {
   ],
   tags: ['sports', 'fitness', 'outdoors']
 };
+

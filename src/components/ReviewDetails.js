@@ -3,10 +3,10 @@ import React from "react";
 export const ReviewDetails = props => {
   return (
     <section>
-      <h1>{props.rating}</h1>
+      <h4>Rating: {props.rating}</h4>
       <p>{props.body}</p>
       <br/>
-      Seller: {props.reviewer}
+      Seller: {props.reviewer.full_name}
       <br/>
       <br/>
       Posted on: {props.created_at}

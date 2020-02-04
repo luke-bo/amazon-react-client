@@ -7,7 +7,7 @@ export const ProductDetails = props => {
       <p>{props.description}</p>
       <small>{props.price}</small>
       <br/>
-      Seller: {props.seller}
+      Seller: {props.seller.full_name}
       <br/>
       <br/>
       Posted on: {props.created_at}

@@ -1,10 +1,10 @@
 import React from 'react';
-import { ProductDetails } from './ProductDetails'
+import { ProductShowPage } from './ProductShowPage'
 
 function App() {
   return (
     <div>
-      <ProductDetails title="This is a title"/>
+      <ProductShowPage />
     </div>
   );
 }
