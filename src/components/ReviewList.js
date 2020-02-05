@@ -1,5 +1,4 @@
 import React from "react";
-
 import { ReviewDetails } from "./ReviewDetails";
 
 export const ReviewList = props => {
