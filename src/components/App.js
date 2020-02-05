@@ -1,12 +1,13 @@
 import React from 'react';
 import { ProductShowPage } from './ProductShowPage'
 import { Star } from './Star'
+import { ProductIndexPage } from './ProductIndex';
 
 function App() {
   return (
     <div>
+      <ProductIndexPage />
       <ProductShowPage />
-      {/* <Star style={{color:'grey', height: '1rem'}}/> */}
     </div>
   );
 }

@@ -19,18 +19,3 @@ export const StarRating = (props) => {
     </div>
   );
 }
-
-
-/* <div>
-{starRating.map(element => {
-  starRating.indexOf(element) <= (rating - 1) ? (<Star style={{color:'grey', height: '1rem'}}/>)
-    :
-  (<Star style={{color:'gold', height: '1rem'}}/>)
-})}
-</div> */
-
-// {rating > StarRating.indexOf(element) ? (
-//   <Star /> 
-// ) : (
-//   <p>False</p>
-// )}
