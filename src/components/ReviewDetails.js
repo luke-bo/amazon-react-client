@@ -11,6 +11,7 @@ export const ReviewDetails = props => {
       <br/>
       <br/>
       Posted on: {props.created_at}
+      <button onClick={() => props.onDeleteReviewClick(props.id)}>Delete</button>
     </section>
   );
 };
